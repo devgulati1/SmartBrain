@@ -5,12 +5,12 @@ import "./ImageFormLink.css"
 let ImageLinkForm=({onInputChange,onButtonClick})=>{
     return (
         <div className=" tc ">
-        <p  >{"the magic will detect faces in your pictue.Give it a try"}</p>
+        <p  className="f4">{"Smart Brain will detect faces in your pictue.Give it a try"}</p>
        <div className="center ">
 
        <div className="    center form  ma3 br3 pa4 shadow-5">
 
-       <input  className=" center pa3 ma3 f4  w-70" type="text" onChange={onInputChange} />
+       <input  className=" center pa3 ma3 f4  w-70" type="text" onChange={onInputChange} placeholder="Paste Image Link Here" />
        <button className="dib pa3 ma3 pv3 white link bg-light-purple w-30 grow" 
        
         onClick={onButtonClick}>

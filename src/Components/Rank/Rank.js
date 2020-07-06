@@ -3,9 +3,9 @@ import React from "react"
 let Rank=()=>{
     return(
         <div className="tc ">
-        <p className="f4 ">Your Rank Is</p>
+        <p className="f4 ">Hello</p>
         <div>
-        <p className="f3">#5</p>
+        <p className="f3">Sir/Maam</p>
         </div>
         </div>
     )

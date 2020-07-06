@@ -5,7 +5,7 @@ import "./ImageFormLink.css"
 let ImageLinkForm=({onInputChange,onButtonClick})=>{
     return (
         <div className=" tc ">
-        <p  className="f4">{"Smart Brain will detect faces in your pictue.Give it a try"}</p>
+        <p  className="f4">{"Smart Brain will detect faces in your picture.Give it a try"}</p>
        <div className="center ">
 
        <div className="    center form  ma3 br3 pa4 shadow-5">
